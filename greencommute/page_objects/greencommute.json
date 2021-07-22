@@ -1,0 +1,34 @@
+{
+
+
+    "location": {
+
+        "giveCurrentLocation": ".MuiInputBase-root",
+        "clickNext": ":nth-child(1) > [data-testid=button] > .MuiButton-label"
+    },
+
+    "joblocation": {
+        "giveJobLocation": ".MuiInputBase-root",
+        "clickNext": ":nth-child(1) > [data-testid=button] > .MuiButton-label"
+    },
+    "jobSkill": {
+        "giveJobSkill": ".MuiInputBase-root",
+        "clickNext": ":nth-child(1) > [data-testid=button] > .MuiButton-label",
+        "findJobKill": ".MuiInputBase-root MuiAutocomplete-input MuiAutocomplete-inputFocused"
+    },
+    "findJob": {
+        "clickSearch": "[data-testid=find-job] > .MuiButton-root > .MuiButton-label"
+
+    },
+    "click": {
+        "zomeso": ":nth-child(3) > .jss98 > [data-testid=jobCard-placeholder]",
+        "clickSave": ".MuiGrid-root > .MuiButton-outlined > .MuiButton-label"
+    },
+    "savedJobs": {
+        "clickedSaveJobs": ":nth-child(3) > .MuiListItemText-root > .MuiTypography-root",
+        "clickSavedZemoso": "[data-testid=jobCard-placeholder]",
+        "clickRemove": ".MuiButton-outlined"
+    }
+
+
+}

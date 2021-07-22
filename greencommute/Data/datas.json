@@ -1,0 +1,66 @@
+{
+
+    "location": {
+        "location": "Hyderabad{downarrow}{enter}"
+
+    },
+
+    "loc1": {
+        "location": "Banglo.,/!{downarrow}{enter}"
+
+    },
+
+    "loc2": {
+        "location": "Mumb@#123{downarrow}{enter}"
+
+    },
+
+    "loc3": {
+        "location": "Hyde@3w5<,{downarrow}{enter}"
+
+    },
+
+
+
+    "jobLoc": {
+
+        "joblocation": "Hyderabad{downarrow}{enter}"
+
+    },
+    "jobLoc1": {
+        "joblocation": "Bangl^6,.e{downarrow}{enter}"
+    },
+
+    "jobLoc2": {
+
+        "joblocation": "Mum@ai>/{downarrow}{enter}"
+
+    },
+
+    "jobLoc3": {
+        "joblocation": "Hyd32#raba2{downarrow}{enter}"
+
+    },
+
+
+
+
+    "jobSkill": {
+
+        "jobskill": "Java{downarrow}{enter}"
+    },
+    "jobSkill1": {
+
+        "jobskill": "Pyt.,;hon{rightarrow}{enter}"
+    },
+
+    "jobSkill2": {
+
+        "jobskill": "H#re1R{rightarrow}{enter}"
+    },
+
+    "jobSkill3": {
+
+        "jobskill": "Ja@13aS4r8i*{rightarrow}{enter}"
+    }
+}
