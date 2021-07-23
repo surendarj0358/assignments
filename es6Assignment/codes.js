@@ -30,8 +30,9 @@ const names = [{
 
 
 let randomGen = (min, max) => {
-    let rand = Math.floor(Math.random() * (max - min + 1) + min)
-    console.log(rand)
+    min = Number(min)
+    max = Number(max)
+    var rand = Math.floor(Math.random() * (max - min) + min);
     return rand
 
 }
