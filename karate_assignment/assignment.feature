@@ -82,11 +82,6 @@ Scenario: Create new label
     When method Post
     Then status 200
     
-Scenario: Get label
-    Given path "/rest/v1/labels"
-    And headers {Content-Type:'application/json'}
-    When method Get
-    Then status 200
 
 Scenario: Update label
     Given path "/rest/v1/labels/2157753339"
