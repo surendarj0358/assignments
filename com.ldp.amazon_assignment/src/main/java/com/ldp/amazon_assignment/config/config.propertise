@@ -1,0 +1,7 @@
+email =7200747375
+password =1234As1234
+url = https://www.amazon.in/
+browser = Chrome
+driverLocation = /home/surenj/Downloads/Selenium/chromedriver
+
+
