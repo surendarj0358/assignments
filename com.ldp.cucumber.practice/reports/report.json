@@ -1,0 +1,125 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-17T14:37:51.637Z",
+        "line": 6,
+        "name": "validate login features of orange hrm using valid credentials",
+        "description": "",
+        "id": "validate-login-features-of-orange-hrm.;validate-login-features-of-orange-hrm-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14352952000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "open browser",
+            "match": {
+              "location": "testcase.StepDefinition.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1828759000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter url",
+            "match": {
+              "location": "testcase.StepDefinition.enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70955000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify login page loaded or not",
+            "match": {
+              "location": "testcase.StepDefinition.verify_login_page_loaded_or_not()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112819000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testcase.StepDefinition.enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97478000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "testcase.StepDefinition.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9039656000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click login button",
+            "match": {
+              "location": "testcase.StepDefinition.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64589000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify login sucess or not",
+            "match": {
+              "location": "testcase.StepDefinition.verify_login_sucess_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "validate login features of orange hrm.",
+    "description": "",
+    "id": "validate-login-features-of-orange-hrm.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/google.feature",
+    "tags": []
+  }
+]
