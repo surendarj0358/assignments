@@ -1,0 +1,340 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-19T05:15:53.620Z",
+        "line": 21,
+        "name": "validate registeration form using multiple data",
+        "description": "",
+        "id": "validate-login-features-of-orange-hrm.;validate-registeration-form-using-multiple-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 12506000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 94722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2558557000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser",
+            "match": {
+              "location": "stepDefinitions.TestCase.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1797718000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter url",
+            "match": {
+              "location": "stepDefinitions.TestCase.enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176825000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login page loaded or not",
+            "match": {
+              "location": "stepDefinitions.TestCase.verify_login_page_loaded_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147636000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter mail id as \"incomtax@email.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incomtax@email.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.TestCase.enter_mail_id(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3586251000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click login",
+            "match": {
+              "location": "stepDefinitions.TestCase.click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69946000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify registeration form page loaded or not",
+            "match": {
+              "location": "stepDefinitions.TestCase.verify_registeration_form_page_loaded_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4025792000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "fill the registration form",
+            "match": {
+              "location": "stepDefinitions.TestCase.fill_the_registration_form(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "surendar",
+                  "kumar",
+                  "address1",
+                  "user@email1.com",
+                  "1234567890",
+                  "Java",
+                  "India",
+                  "2001",
+                  "Jan",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "siva",
+                  "prasad",
+                  "address2",
+                  "user@email2.com",
+                  "1235567890",
+                  "Linux",
+                  "India",
+                  "2002",
+                  "Feb",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@debug"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-19T05:16:06.320Z",
+        "line": 22,
+        "name": "validate registeration form using multiple data",
+        "description": "",
+        "id": "validate-login-features-of-orange-hrm.;validate-registeration-form-using-multiple-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1086000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 85392000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1499892000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser",
+            "match": {
+              "location": "stepDefinitions.TestCase.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1737702000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter url",
+            "match": {
+              "location": "stepDefinitions.TestCase.enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106811000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login page loaded or not",
+            "match": {
+              "location": "stepDefinitions.TestCase.verify_login_page_loaded_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124671000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter mail id as \"bank@email.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bank@email.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.TestCase.enter_mail_id(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3513066000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click login",
+            "match": {
+              "location": "stepDefinitions.TestCase.click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62980000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify registeration form page loaded or not",
+            "match": {
+              "location": "stepDefinitions.TestCase.verify_registeration_form_page_loaded_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3992059000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "fill the registration form",
+            "match": {
+              "location": "stepDefinitions.TestCase.fill_the_registration_form(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "surendar",
+                  "kumar",
+                  "address1",
+                  "user@email1.com",
+                  "1234567890",
+                  "Java",
+                  "India",
+                  "2001",
+                  "Jan",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "siva",
+                  "prasad",
+                  "address2",
+                  "user@email2.com",
+                  "1235567890",
+                  "Linux",
+                  "India",
+                  "2002",
+                  "Feb",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@debug"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "validate login features of orange hrm.",
+    "description": "",
+    "id": "validate-login-features-of-orange-hrm.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFile/login.feature",
+    "tags": [
+      {
+        "name": "@debug",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

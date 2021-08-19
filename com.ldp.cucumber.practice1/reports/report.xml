@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="24.412">
+    <testcase classname="validate login features of orange hrm." name="validate registeration form using multiple data" time="12.66">
+        <system-out><![CDATA[Given open browser..........................................................passed
+When enter url..............................................................passed
+Then verify login page loaded or not........................................passed
+When enter mail id as "incomtax@email.com"..................................passed
+Then click login............................................................passed
+Then verify registeration form page loaded or not...........................passed
+Then fill the registration form.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="validate login features of orange hrm." name="validate registeration form using multiple data 2" time="11.147">
+        <system-out><![CDATA[Given open browser..........................................................passed
+When enter url..............................................................passed
+Then verify login page loaded or not........................................passed
+When enter mail id as "bank@email.com"......................................passed
+Then click login............................................................passed
+Then verify registeration form page loaded or not...........................passed
+Then fill the registration form.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
