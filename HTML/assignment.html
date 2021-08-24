@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html lan>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productboard-Welcome</title>
     <link rel="stylesheet" type="text/css" href="design.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,14 +29,14 @@
 
                 <div class="email">
                     <label>EMAIL</label><br/><br/>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="example@zemosolabs.com">
+                    <input type="text" class="mailid" id="mail" placeholder="example@zemosolabs.com">
                 </div>
                 <div class="password">
                     <label>PASSWORD</label><br/><br/>
-                    <input type="pass" class="form-control" id="exampleInputPassword1" placeholder="password">
+                    <input type="text" class="givepassword" id="password" placeholder="password">
                 </div>
                 <div class="label2">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1"> Remember Me <a href="#">Forgot password</a>
+                    <label><input type="checkbox" class="check_box" id="check" value="passcode">Remember Me</label><a href="#">Forgot password</a>
                 </div>
 
                 <div class="button">
@@ -52,7 +55,7 @@
         </div>
     </div>
     </div>
-
+    <script src="validation.js"></script>
 </body>
 
 </html>
