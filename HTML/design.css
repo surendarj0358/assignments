@@ -10,7 +10,6 @@ body {
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 0px;
 }
 
 .splitLeft {
@@ -28,43 +27,57 @@ body {
     left: 23%;
     transform: translate(-50%, 50%);
     text-align: left;
-    padding: 0px 6px;
 }
 
 .logo {
     width: 10px;
     height: 10px;
-    border-radius: 100%;
+    border-radius: 50%;
     position: absolute;
-    top: 0%;
     left: 0%;
 }
 
-.header1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(8, 8, 8);
-    top: 20%;
-    padding-top: 0px;
+#button {
+    border: 1px solid #ccc;
+    margin-bottom: -50px;
+    border-radius: 3px;
+    margin-left: 0 px;
+    margin-top: -150px;
+    text-align: center;
+    height: 3.5em;
+    width: 36em;
+    color: gray;
+    cursor: pointer;
+}
+
+#google_icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 1px;
+    font-size: 4em;
+    margin-top: 0 px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    top: 90%;
+    cursor: pointer;
+    text-align: center;
 }
 
 .label1 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(104, 103, 103);
     position: absolute;
-    right: inherit;
-    left: 40%;
-    top: 70%;
-    padding-top: 95px;
+    left: 25%;
+    top: 120%;
 }
 
 .email {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(104, 103, 103);
     position: absolute;
-    right: inherit;
     left: 0%;
-    top: 85%;
-    padding-top: 95px;
+    top: 140%;
 }
 
 .email input {
@@ -73,7 +86,7 @@ body {
 }
 
 .email input[type="text"] {
-    border-radius: dimgray 3mm;
+    border-radius: 6px;
     border-bottom: 1px solid rgb(253, 249, 249);
     background: rgb(250, 246, 246);
     outline: none;
@@ -85,16 +98,15 @@ body {
     color: rgb(8, 8, 8);
     font-size: 16px;
     letter-spacing: 1px;
+    right: 20px;
 }
 
 .password {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(104, 103, 103);
     position: absolute;
-    right: inherit;
     left: 0%;
-    top: 120%;
-    padding-top: 120px;
+    top: 180%;
 }
 
 .password input {
@@ -103,7 +115,7 @@ body {
 }
 
 .password input[type="text"] {
-    border-radius: dimgray 3mm;
+    border-radius: 6px;
     border-bottom: 1px solid rgb(248, 243, 243);
     background: rgb(252, 250, 250);
     outline: none;
@@ -119,30 +131,24 @@ body {
 
 .label2 {
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(104, 103, 103);
     position: absolute;
-    right: inherit;
     left: 0%;
-    top: 150%;
-    padding-top: 150px;
+    top: 220%;
 }
 
 .button {
     position: absolute;
-    right: inherit;
     left: 0%;
-    top: 170%;
-    padding-top: 170px;
+    top: 230%;
 }
 
 .button button {
     height: 40%;
-    width: 110%;
+    width: 108%;
     padding: 10px 180px;
-    border-radius: dimgray 3mm;
-    border-bottom: 1px solid rgb(8, 8, 8);
-    border: 1px solid #607d8b;
-    outline: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
     background: blue;
     font-weight: 400;
     font-size: 16px;
@@ -151,8 +157,13 @@ body {
 
 .link {
     position: absolute;
-    right: inherit;
     left: 0%;
-    top: 180%;
-    padding-top: 180px;
+    top: 260%;
+}
+
+#head1 {
+    color: rgb(15, 11, 9);
+    font-style: bold;
+    font-weight: 100;
+    top: -20%
 }
