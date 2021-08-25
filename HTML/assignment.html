@@ -16,15 +16,18 @@
         <div class="splitLeft">
             <div class="centered">
 
-                <img src="/download.png" class="Logo">
+                <img src="download.png" class="Logo">
+
+                <h1 id="head1">Sign in to your workspace</h1><br/><br/>
 
                 <div class="header1">
-                    <h1>Sign in to your workspace</h1><br/><br/>
-                    <a href="https://app.productboard.com/users/sign_in/google_oauth2?redirect_to=https%3A%2F%2Fapp.productboard.com%2F"><img src="https://img.icons8.com/color/16/000000/google-logo.png">Sign In With Google</a><br>
+
+                    <button type="button" style="background-color: white;" id="button"><strong>Sign in with Google </strong></button>
+                    <img src="Glogo.png" id="google_icon" />
                 </div>
 
                 <div class="label1">
-                    <label>OR USE EMAIL</label><br/><br/>
+                    <label>----------OR USE EMAIL----------</label><br/><br/>
                 </div>
 
                 <div class="email">
@@ -36,11 +39,13 @@
                     <input type="text" class="givepassword" id="password" placeholder="password">
                 </div>
                 <div class="label2">
-                    <label><input type="checkbox" class="check_box" id="check" value="passcode">Remember Me</label><a href="#">Forgot password</a>
+                    <input type="checkbox" class="check_box" id="check" value="passcode">
+                    <label id="remember" for="check">Remember Me </label>
+                    <a href="#">Forgot password</a>
                 </div>
 
                 <div class="button">
-                    <button type="submit">Log me in</button><br>
+                    <button type="button" onclick="checkEmail(),checkPassword()">"Log me in</button>
                 </div>
                 <div class="link">
                     <p>Don't have an account? <a href="#">Sign up</a></p><br/><br/>
