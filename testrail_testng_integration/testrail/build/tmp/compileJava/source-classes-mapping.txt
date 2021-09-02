@@ -1,0 +1,11 @@
+com/report/testrail/TestRailStatus.java
+ com.report.testrail.TestRailStatus
+com/report/testrail/TestrailApplication.java
+ com.report.testrail.TestrailApplication
+com/report/testrail/TestRail.java
+ com.report.testrail.TestRail
+com/report/testrail/TestRailReport.java
+ com.report.testrail.TestRailReport
+com/report/testrail/TestRailIdProvider.java
+ com.report.testrail.TestRailIdProvider
+ com.report.testrail.TestRailIdProvider$CloseableOnlyOnceResource
